@@ -22,12 +22,13 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+/* це робить modern-normolize */
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 body {
   display: flex;
