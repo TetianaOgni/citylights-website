@@ -42,12 +42,35 @@
 .nav-link.active::after {
   background: #747bff;
 } */
+.section-header {
+  padding: 50px 0;
+}
 
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  gap: 43px;
+  align-items: center;
+  margin-right: 318px;
+}
+.header-contact-list {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
 .link-button {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 600;
-  width: 137px;
+  min-width: 137px;
   height: 46px;
   background-color: var(--gold-color);
   color: var(--dark-color);

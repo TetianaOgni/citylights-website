@@ -4,7 +4,7 @@
   --dark-gold-color: #a0856a;
   --gold-color: #cdae7e;
   --font-family: 'Montserrat', sans-serif;
-  --font-family-title: 'Cinzel', sans-serif;
+  --font-family-title: 'Italiana', sans-serif;
   --font-family-none: 'Inter', sans-serif;
 
   /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
@@ -46,7 +46,7 @@ main:has(.back-link) {
 }
 
 h1,
-h2,
+/* h2, */
 h3 {
   font-family: var(--font-family-title);
 }
