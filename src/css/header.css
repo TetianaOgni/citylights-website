@@ -43,7 +43,11 @@
   background: #747bff;
 } */
 .section-header {
+  outline: 1px solid green;
+
   padding: 50px 0;
+  position: absolute;
+  width: 100%;
 }
 
 .header-wrapper {

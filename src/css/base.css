@@ -36,6 +36,8 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+
+  font-family: var(--font-family);
 }
 
 main {
@@ -49,4 +51,37 @@ h1,
 /* h2, */
 h3 {
   font-family: var(--font-family-title);
+}
+section {
+  outline: 1px solid green;
+}
+.second-title {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.text-after-title {
+  font-family: var(--font-family-title);
+  font-size: 48px;
+  line-height: 1.14583;
+  text-transform: capitalize;
+  color: var(--gold-color);
+  text-transform: capitalize;
+}
+.button {
+  /* font-weight: 400; */
+  font-size: 16px;
+  line-height: 1.5;
+  /* text-align: center; */
+  color: var(--dark-color);
+  background-color: var(--gold-color);
+  border-radius: 10px;
+}
+.text {
+  /* font-weight: 400; */
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--white-color);
 }

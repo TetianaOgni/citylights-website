@@ -1,4 +1,4 @@
-.title {
+/* .title {
   font-weight: 400;
   font-size: 48px;
   line-height: 1.14583;
@@ -6,4 +6,19 @@
   text-align: center;
   color: #cdae7e;
   font-family: var(--font-family-title);
+} */
+.section-about-us {
+  padding: 147px 0 152px 0;
+}
+.about-us-text-wrapper {
+  width: 611px;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.about-us-button {
+  width: 137px;
+  height: 46px;
+  font-weight: 600;
 }

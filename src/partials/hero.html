@@ -1,12 +1,15 @@
 <section class="section section-hero">
   <div class="container">
-    <p class="hero-greetings">welcome to citylights realty</p>
-    <h1 class="hero-title">
-      <span class="part-one">Experience</span>
-      <!-- <span class="defisse">-</span> -->
-      <span class="part-two">the Lifestyle</span>
-    </h1>
-    <div class="hero-wrapper">
+    <div class="hero-wrapper-top">
+      <p class="hero-greetings">welcome to citylights realty</p>
+      <h1 class="hero-title">
+        <span class="part-one">Experience</span>
+        <!-- <span class="defisse">-</span> -->
+        <span class="part-two">the Lifestyle</span>
+      </h1>
+    </div>
+
+    <div class="hero-wrapper-bottom">
       <ul class="hero-list">
         <li class="hero-item">
           <p class="hero-top-text-item">price us dollar</p>
@@ -21,13 +24,15 @@
           <a href="">Enter here</a>
         </li>
         <li class="hero-item">
-          <p class="hero-top-text-item">apartment</p>
-          <select name="studio appartment" id="">
-            Studio apartment
+          <label class="hero-top-text-item" for="apartment">apartment</label>
+          <select name="apartment" id="apartment" class="hero-select">
+            <option value="1">Studio apartment</option>
+            <option value="2">second apartment</option>
+            <option value="3">third apartment</option>
           </select>
         </li>
       </ul>
-      <button type="button" class="hero-button">Search</button>
+      <button type="button" class="hero-button button">Search</button>
     </div>
   </div>
 </section>
