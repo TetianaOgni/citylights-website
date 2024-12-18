@@ -29,15 +29,20 @@
 .hero-greetings {
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  margin-bottom: 54px;
+  margin-bottom: 34px;
 }
 .hero-title {
   display: block;
   font-weight: 400;
   font-size: 130px;
   line-height: 1.2;
+
   text-transform: uppercase;
   margin-bottom: 100px;
+
+  /* font-weight: 400;
+  font-size: 150px; */
+  /* line-height: 0.16667; */
 }
 .part-one {
   outline: 1px solid rosybrown;
@@ -53,12 +58,12 @@
 .part-two::before {
   content: '';
   display: inline-block;
-  width: 150px;
+  width: 154px;
   height: 1px;
   background-color: var(--white-color);
   position: absolute;
   bottom: 50%;
-  left: 90px;
+  left: 125px;
 }
 .hero-wrapper-bottom {
   border: 1px solid #cdae7e;
@@ -89,7 +94,7 @@
   background-color: transparent;
   border-color: transparent;
 
-  width: 248px;
+  width: 250px;
   position: relative;
   right: 5px;
 }
