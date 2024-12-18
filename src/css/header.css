@@ -73,18 +73,6 @@
 .link-button {
   display: inline-block;
   padding: 10px 30px;
-  font-weight: 600;
   min-width: 137px;
   height: 46px;
-  background-color: var(--gold-color);
-  color: var(--dark-color);
-  border-radius: 10px;
-  text-align: center;
-  border: 1px solid var(--gold-colorf);
-  transition: background-color 0.3s ease; /* Анимация при наведении */
-}
-
-.link-button:hover {
-  background-color: var(--dark-gold-color); /* Более тёмный синий */
-  color: var(--white-color);
 }

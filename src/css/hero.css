@@ -108,6 +108,7 @@
   color: var(--white-color);
 }
 .hero-button {
+  font-weight: 400;
   width: 255px;
   height: 46px;
 }

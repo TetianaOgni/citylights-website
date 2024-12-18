@@ -71,13 +71,20 @@ section {
   text-transform: capitalize;
 }
 .button {
-  /* font-weight: 400; */
+  font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  /* text-align: center; */
+  text-align: center;
+
   color: var(--dark-color);
   background-color: var(--gold-color);
   border-radius: 10px;
+  border: 1px solid var(--gold-color);
+  transition: background-color 0.3s ease; /* Анимация при наведении */
+}
+.button:hover {
+  background-color: var(--dark-gold-color); /* Более тёмный синий */
+  color: var(--white-color);
 }
 .text {
   /* font-weight: 400; */
