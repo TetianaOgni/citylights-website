@@ -20,13 +20,10 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/citylights-website/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/citylights-website/assets/styles-D63QppX-.css">
+    <link rel="stylesheet" crossorigin href="/citylights-website/assets/styles-BC1HuXFL.css">
   </head>
   <body>
-    <header
-  style="color: #ffffff; background-color: #4f4040"
-  class="section section-header"
->
+    <header class="section section-header">
   <div class="container">
     <div class="header-wrapper">
       <nav class="nav">
@@ -53,13 +50,15 @@
     <main>
       <section class="section section-hero">
   <div class="container">
-    <p class="hero-greetings">welcome to citylights realty</p>
-    <h1 class="hero-title">
-      <span class="part-one">Experience</span>
-      <!-- <span class="defisse">-</span> -->
-      <span class="part-two">the Lifestyle</span>
-    </h1>
-    <div class="hero-wrapper">
+    <div class="hero-wrapper-top">
+      <p class="hero-greetings">welcome to citylights realty</p>
+      <h1 class="hero-title">
+        <span class="part-one">Experience</span>
+        <span class="part-two">the Lifestyle</span>
+      </h1>
+    </div>
+
+    <div class="hero-wrapper-bottom">
       <ul class="hero-list">
         <li class="hero-item">
           <p class="hero-top-text-item">price us dollar</p>
@@ -74,15 +73,31 @@
           <a href="">Enter here</a>
         </li>
         <li class="hero-item">
-          <p class="hero-top-text-item">apartment</p>
-          <select name="studio appartment" id="">
-            Studio apartment
+          <label class="hero-top-text-item" for="apartment">apartment</label>
+          <select name="apartment" id="apartment" class="hero-select">
+            <option value="1">Studio apartment</option>
+            <option value="2">second apartment</option>
+            <option value="3">third apartment</option>
           </select>
         </li>
       </ul>
-      <button type="button" class="hero-button">Search</button>
+      <button type="button" class="hero-button button">Search</button>
     </div>
   </div>
+  <img
+    src="../img/hero/05-4x.png"
+    class="decor1"
+    alt=""
+    width="204"
+    height="237"
+  />
+  <img
+    src="../img/hero/06-4x.png"
+    class="decor2"
+    alt=""
+    width="303"
+    height="295"
+  />
 </section>
 
 <!-- <section class="section">
@@ -91,21 +106,38 @@
     </div>
 </section> -->
 
-      <section class="section"></section>
-    <div class="container">
-      <div>
-          <h2>About us</h2>
-          <p class="title">Simplifying your home 
-            finding hassles with hundreds of luxurious properties</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet convallis metus, vitae mattis ipsum. Suspendisse luctus ipsum ac sem pharetra tincidunt. Praesent fermentum tincidunt viverra.</p> 
-      <button type="button">Explore</button>
-        </div> 
-      <div>
-          <img src="/citylights-website/assets/bedroom-D-0tz619.jpg" alt="modern bedroom" width="584" height="398">
-         <img src="/citylights-website/assets/living-room-3Wl72DFn.jpg" alt="modern living room" width="398" height="584">
-      </div>
+      <section class="section section-about-us">
+  <div class="container">
+    <div class="about-us-text-wrapper">
+      <h2 class="second-title">About us</h2>
+      <p class="text-after-title">
+        Simplifying your home finding hassles with hundreds of luxurious
+        properties
+      </p>
+      <p class="about-us-text text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet
+        convallis metus, vitae mattis ipsum. Suspendisse luctus ipsum ac sem
+        pharetra tincidunt. Praesent fermentum tincidunt viverra.
+      </p>
+      <button class="about-us-button button" type="button">Explore</button>
     </div>
-    </section>
+    <div>
+      <img
+        src="/citylights-website/assets/bedroom-D-0tz619.jpg"
+        alt="modern bedroom"
+        width="584"
+        height="398"
+      />
+      <img
+        src="/citylights-website/assets/living-room-3Wl72DFn.jpg"
+        alt="modern living room"
+        width="398"
+        height="584"
+      />
+    </div>
+  </div>
+</section>
+
       <section class="section">
   <div class="container">
     <h2 hidden>Price</h2>
@@ -156,7 +188,7 @@
 
       <section class="section">
   <div class="container">
-    <h2>Why us</h2>
+    <h2 class="second-title">Why us</h2>
     <p>Going Above and Beyond To Find Your Next Home</p>
     <ol>
       <li>
@@ -290,7 +322,7 @@
 
       <section class="section">
   <div class="container">
-    <h2>News</h2>
+    <h2 class="second-title">News</h2>
     <h3>Lastest articles</h3>
     <button type="button">Explore</button>
     <ul>
