@@ -2,7 +2,11 @@
   position: relative;
   padding-top: 300px;
   padding-bottom: 144px;
-  background-image: url(../img/hero/bgr-hero.jpg);
+  background-image: 
+  /* linear-gradient(
+      rgba(28, 26, 27, 0.4),
+      rgba(28, 26, 27, 0.4)
+    ), */ url(../img/hero/bgr-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top left;

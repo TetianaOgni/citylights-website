@@ -10,6 +10,10 @@
 .section-about-us {
   padding: 147px 0 152px 0;
 }
+.about-us-wrapper {
+  display: flex;
+  gap: 65px;
+}
 .about-us-text-wrapper {
   width: 611px;
   height: 490px;
@@ -17,8 +21,56 @@
   flex-direction: column;
   gap: 40px;
 }
+.about-us-text {
+  width: 457px;
+  height: 115px;
+}
 .about-us-button {
   width: 137px;
   height: 46px;
   font-weight: 600;
+}
+.about-us-img-wrapper {
+  position: relative;
+  /* width: 857px; */
+  min-height: 490px;
+  flex-grow: 1;
+  align-self: end;
+  display: flex;
+}
+.about-us-img1 {
+  position: absolute;
+  bottom: -16px;
+  left: 23px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.thumb {
+  width: 584px;
+  height: 398px;
+  position: absolute;
+  bottom: 23px;
+  left: 0px;
+  border: 1px solid var(--gold-color);
+  border-radius: 10px;
+  min-width: auto;
+}
+.about-us-img2 {
+  position: absolute;
+  left: 16px;
+  bottom: 23px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+  border-radius: 10px;
+}
+
+.thumb-img2 {
+  width: 398px;
+  height: 584px;
+  position: absolute;
+  right: 16px;
+  bottom: 85px;
+  border: 1px solid var(--gold-color);
+
+  border-radius: 10px;
 }
